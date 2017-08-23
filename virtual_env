@@ -1,0 +1,16 @@
+# From Terminal
+virtualenv <env_name>
+virtualenv pluralsight      # Example
+virtualenv --python=python3.6 pluralsight
+
+# ok to keep them all in one folder
+
+# need to activate the virtual environment
+$ source /path/to/venv/pluralsight/bin/activate
+
+you should see the prompt change
+(pluralsight) Prompt $
+
+to exit:   deactivate
+
+virtual environment can be setup in pyCharm

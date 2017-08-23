@@ -1,0 +1,21 @@
+======================================================
+=                     pyinstaller                    =
+======================================================
+Python package that converts Python code to an executable.
+
+pip install pyinstaller
+
+pyinstaller main.py  (ignore warnings)
+^^^^^^ creates executable and folder of dependencies
+
+pyinstaller --onefile ./main.py   <----use this cmd!
+^^^^^^ creates single executable
+
+
+
+======================================================
+=                     innosetup                      =
+======================================================
+software package installer
+
+download and install from internet, use wizard.
